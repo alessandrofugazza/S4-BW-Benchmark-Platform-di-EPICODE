@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Outfit:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="divheader logowelcome">
+        <img class="epicode_logo" src="./assets/img/epicode_logo.png" alt="epicode_logo" />
+      </div>
+      <article>
+        <div>
+          <h1 class="h1welcome">
+            Welcome to<br />
+            <strong>your exam</strong>
+          </h1>
+        </div>
+        <div>
+          <h3 class="instruction">Instructions</h3>
+          <p class="wedont">
+            We don't expect most engineers to know the answers to all of these <br />
+            questions, so don't worry if you're unsure of a few of them.
+          </p>
+        </div>
+        <div class="container-second">
+          <ul class="ulwelcome">
+            <li>Each question is <strong>timed</strong> and can only be <strong>answered once</strong> .</li>
+            <li>Changing browser tab or opening other windows will <strong>invalidate the question</strong></li>
+            <li>This exam will take approx. <strong>0-5 minutes</strong> .</li>
+          </ul>
+        </div>
+        <div class="formwelcome">
+          <form>
+            <input type="checkbox" class="tick-checkbox" id="agree-checkbox" />
+            <label for="agree-checkbox" class="agree-checkbox">
+              <div class="tick"><div></div></div>
+              <span>I promise to answer myself without help from anyone</span>
+            </label>
+            <button type="submit" class="custom-button">PROCEED</button>
+          </form>
+        </div>
+      </article>
+    </main>
+    <script src="./scripts/welcomepage.js"></script>
+  </body>
+</html>

@@ -1,0 +1,464 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* WELCOME PAGE */
+body {
+  background-image: url(../assets/img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  color: white;
+}
+
+main {
+  display: block;
+  margin-inline: auto;
+  max-width: 1024px;
+  min-height: 100vh;
+}
+
+.epicode_logo {
+  width: 15%;
+  display: inline-block;
+  margin-top: 3%;
+  margin-left: 7%;
+}
+
+.logowelcome {
+  margin-bottom: 80px;
+}
+
+.logodifficulty {
+  margin-bottom: 240px;
+}
+
+.h1welcome {
+  color: white;
+  font-size: 80px;
+  font-weight: 400;
+  margin-bottom: 0%;
+  font-family: "Outfit", sans-serif;
+  margin-top: 152px;
+  line-height: 0.8;
+  margin-left: 7%;
+}
+
+.instruction {
+  margin-left: 7%;
+  margin-bottom: 0;
+  color: #d20094;
+  font-size: 30px;
+}
+
+p {
+  color: white;
+  font-size: 16px;
+}
+
+.wedont {
+  margin-bottom: 50px;
+  margin-left: 7%;
+}
+
+.ulwelcome {
+  color: white;
+  padding: 0;
+  margin-left: 9%;
+  margin-bottom: 80px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+label {
+  color: white;
+}
+
+.formwelcome {
+  margin-left: 7%;
+}
+
+.tick-checkbox {
+  display: none;
+}
+
+.tick {
+  width: 16px;
+  height: 16px;
+  border: 2px solid white;
+  display: inline-block;
+  padding: 2px;
+  vertical-align: middle;
+}
+
+.tick+span {
+  vertical-align: middle;
+}
+
+.fakeTick {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.custom-button {
+  background-color: #01ffff;
+  border: none;
+  color: black;
+  box-shadow: 0px 0px 30px #01ffff;
+  font-weight: bold;
+  width: 207px;
+  height: 60px;
+  font-family: "Inter", sans-serif;
+  font-size: 130%;
+}
+
+.agree-checkbox {
+  margin-right: 21em;
+}
+
+.custom-button:hover,
+.agree-checkbox,
+.submit,
+.answer-box label,
+.button,
+.stars,
+.inputButton,
+.stars {
+  cursor: pointer;
+}
+
+/* QUESTIONS CSS */
+
+/* header, */
+.question-header img {
+  vertical-align: top;
+  float: left;
+}
+
+#difficulty {
+  font-family: "Outfit", sans-serif;
+}
+
+.headerQuestionsDiv {
+  text-align: center;
+  border-radius: 100px;
+  width: 7.5em;
+  height: 7.5em;
+  float: right;
+  padding: 1.3em;
+  margin-top: 3em;
+  /* -webkit-mask-image: url(./assets/img/circle.png);
+  mask-image: url(./assets/img/circle.png);
+  -webkit-mask-size: 70%;
+  mask-size: 70%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat; */
+}
+
+.headerPQuestions {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+header p:first-of-type {
+  margin-top: 6px;
+}
+
+header p:first-of-type,
+header p:last-of-type {
+  font-size: 0.5rem;
+}
+
+header p:nth-of-type(2) {
+  font-size: 2.5rem;
+  margin-bottom: 0.1em;
+  line-height: 0.9;
+}
+
+header p:last-of-type {
+  font-weight: 300;
+}
+
+/* main */
+
+.pre-questionary {
+  text-align: center;
+}
+
+.question-main {
+  padding-top: 8.1em;
+  clear: both;
+}
+
+.pre-questionary div {
+  margin-bottom: 5em;
+}
+
+.pre-questionary div * {
+  font-size: 1.2rem;
+}
+
+.pre-questionary div label {
+  margin-right: 1em;
+}
+
+.pre-questionary .inputText {
+  margin-bottom: 5em;
+}
+
+.h2Questions {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  margin: 1.7em;
+  line-height: 1;
+}
+
+h2 span {
+  font-weight: 700;
+}
+
+.answer-box {
+  font-weight: 700;
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+.answer-box label {
+  display: inline-block;
+  width: 21.5em;
+  padding: 1.5em;
+  border: 3.5px solid #ffffffba;
+  border-radius: 40px;
+  background-color: #43434347;
+}
+
+.answer-box label:not(:nth-of-type(2)):not(:nth-of-type(4)) {
+  margin-right: 2.5em;
+}
+
+.answer-box label:not(:nth-of-type(3)):not(:nth-of-type(4)) {
+  margin-bottom: 1em;
+}
+
+.answer-box+div {
+  font-weight: 500;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+}
+
+.answer-box+div span {
+  color: #d20094;
+}
+
+.answer {
+  appearance: none;
+}
+
+.numberOfQuestions {
+  float: left;
+  margin-bottom: 0;
+  margin-top: 70px;
+}
+
+.submit {
+  background: transparent;
+  border: solid 2px white;
+  color: white;
+  width: 180px;
+  height: 50px;
+  font-family: "Inter", sans-serif;
+  font-size: 120%;
+  float: right;
+  margin-top: 50px;
+}
+
+#selectedAnswer {
+  background-color: #ac0088;
+}
+
+#green {
+  background-color: #54b02d;
+}
+
+#red {
+  background-color: #da0000;
+}
+
+/* RESULTS CSS */
+.articleresults {
+  text-align: center;
+  color: white;
+}
+
+.title {
+  margin-top: 120px;
+  font-size: 300%;
+  margin-bottom: 0;
+}
+
+.summary {
+  font-size: 150%;
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+
+.inblock {
+  display: inline-block;
+}
+
+.circle {
+  /* background-image: radial-gradient(#0b113b 50%, transparent 50%), conic-gradient(#ac0088 0% 33.3%, #01ffff 33.3% 100%); */
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+}
+
+.correct {
+  margin-right: 80px;
+}
+
+.wrong {
+  margin-left: 100px;
+}
+
+.button {
+  display: block;
+  margin-top: 50px;
+  margin-inline: auto;
+  background: transparent;
+  border: solid 2px white;
+  color: white;
+  width: 180px;
+  height: 50px;
+  font-family: "Inter", sans-serif;
+  font-size: 120%;
+  box-shadow: 0px 0px 30px #01ffff2e;
+}
+
+.corwro {
+  font-size: 300%;
+  font-weight: 400;
+  margin: 0;
+}
+
+.percentuali {
+  font-weight: 700;
+}
+
+.cong {
+  margin-top: 100px;
+  margin-bottom: 0;
+  font-size: 100%;
+}
+
+.pass {
+  margin-top: 0;
+  font-size: 100%;
+  margin-bottom: 30px;
+  color: #01ffff;
+}
+
+.send {
+  margin-bottom: 0;
+  width: 220px;
+  margin-inline: auto;
+  font-size: 70%;
+}
+
+.email {
+  margin-top: 0;
+  font-size: 70%;
+}
+
+/* FEEDBACK CSS */
+
+.logoEpicode {
+  width: 15%;
+  display: inline-block;
+  margin-top: 3%;
+  margin-left: 7%;
+}
+
+.center {
+  text-align: center;
+}
+
+.h2 {
+  color: white;
+  margin-top: 180px;
+  font-size: 300%;
+  margin-bottom: 0.2%;
+  font-family: "Outfit", sans-serif;
+}
+
+.pfeedback {
+  margin-top: 20px;
+  font-size: 155%;
+  font-family: "Outfit", sans-serif;
+}
+
+.pWidth {
+  margin-inline: 18%;
+}
+
+.inputText {
+  display: block;
+  margin-inline: auto;
+  width: 65%;
+  height: 40px;
+  background: transparent;
+  border: none;
+  border-bottom: solid 3px #ac0088;
+  margin-bottom: 30px;
+  font-size: 110%;
+  text-align: left;
+  padding-left: 25px;
+  font-family: "Inter", sans-serif;
+  color: white;
+  outline: none;
+}
+
+.inputButton {
+  display: block;
+  margin-inline: auto;
+  margin-bottom: 50px;
+  width: 20%;
+  height: 60px;
+  background-color: #01ffff;
+  border: none;
+  box-shadow: 0px 0px 30px #01ffff;
+  font-size: 130%;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.divStars {
+  text-align: center;
+  margin-bottom: 60px;
+  user-select: none;
+}
+
+.stars {
+  padding-inline: 4px;
+  -webkit-user-drag: none;
+}
+
+.filter {
+  filter: brightness(0.15);
+}
+
+.divStars span {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  display: contents;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Questions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Outfit:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="divheader logowelcome logodifficulty">
+        <img class="epicode_logo" src="./assets/img/epicode_logo.png" alt="epicode_logo" />
+      </div>
+      <form class="pre-questionary">
+        <div>
+          <label for="difficulty">Difficulty:</label>
+          <select name="Difficulty" id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium" selected>Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+        </div>
+        <input
+          type="number"
+          placeholder="Choose the amount of questions (10-40)"
+          min="10"
+          max="40"
+          step="1"
+          class="center inputText"
+          required
+        />
+        <button class="custom-button">START QUIZ</button>
+      </form>
+    </main>
+    <script src="./scripts/questions.js"></script>
+    <script src="./scripts/benchmark.js"></script>
+    <script src="./scripts/result.js"></script>
+  </body>
+</html>
